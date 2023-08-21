@@ -83,8 +83,6 @@ void loop() {
     screen2(tempGlobalValue, humGlobalValue);
   }
 
-  
-
   if (currentMillis - previousMillis >= interval) {
     previousMillis = currentMillis;
   
